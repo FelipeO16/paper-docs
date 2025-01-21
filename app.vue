@@ -1,3 +1,0 @@
-<template>
-  <div>Olá</div>
-</template>
