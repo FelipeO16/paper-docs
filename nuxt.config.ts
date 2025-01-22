@@ -6,5 +6,21 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxt/content'
   ],
+  content: {
+    build: {
+      markdown: {
+        highlight: {
+          theme: {
+            // Default theme (same as single string)
+            default: 'aurora-x',
+            // Theme used if `html.dark`
+            dark: 'aurora-x',
+            // Theme used if `html.sepia`
+            sepia: 'aurora-x'
+          }
+        }
+      }
+    }
+  },
   devtools: { enabled: true }
 })
