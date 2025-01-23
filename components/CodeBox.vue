@@ -92,22 +92,22 @@
           class="h-4"
         ><span class="text-sm h-6">{{ header }}</span> -->
       </div>
-      <img
+      <!-- <img
         src="/copy.svg"
         class="cursor-pointer hover:bg-blue-500 hover:bg-opacity-10"
         @click="copyText()"
-      >
+      > -->
     </div>
     <div class="w-full flex flex-col p-4 border-2 border-t-0 border-primary-light-500 shadow-lg shadow-primary-light-500/20 bg-[#1c1c1c] dark:bg-opacity-60 text-sm rounded-b-lg">
       <slot />
     </div>
-    <PUToast />
+    <!-- <PUToast /> -->
   </div>
 </template>
 
 <script lang="ts" setup>
 
-const { add } = useToast()
+// const { add } = useToast()
 
 const props = defineProps<{
   header?: string
@@ -115,14 +115,14 @@ const props = defineProps<{
   copy?: string
 }>()
 
-const toast = useToast()
+// const toast = useToast()
 
-const copyText = () => {
-  // navigator.clipboard.writeText(props.copy)
-  add({
-    severity: 'secondary',
-    summary: 'Texto copiado para a área de transferência',
-    life: 3000,
-  })
-}
+// const copyText = () => {
+//   // navigator.clipboard.writeText(props.copy)
+//   add({
+//     severity: 'secondary',
+//     summary: 'Texto copiado para a área de transferência',
+//     life: 3000,
+//   })
+// }
 </script>
