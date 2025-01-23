@@ -6,9 +6,6 @@
 .cache
 dist
 
-*.yaml
-*.lock
-
 # Node dependencies
 node_modules
 
