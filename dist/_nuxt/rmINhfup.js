@@ -1,1 +1,0 @@
-import{_ as o,o as c,c as l,a as e,N as s}from"./G58y70Rf.js";const a={},n={class:"flex flex-col gap-2 my-4"},r={class:"title text-4xl text-center font-patrick"},i={class:"subtitle text-xl text-center"};function _(t,d){return c(),l("div",n,[e("div",r,[s(t.$slots,"title")]),e("div",i,[s(t.$slots,"subtitle")])])}const x=o(a,[["render",_]]);export{x as default};
