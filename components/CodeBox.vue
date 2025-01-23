@@ -7,7 +7,7 @@
       <div class="flex gap-2 items-center">
         <button
           tabindex="-1"
-          class=" py-1.5 focus:outline-none text-gray-700 dark:text-gray-200 text-sm rounded-md flex items-center gap-1.5 hover:bg-gray-50 dark:hover:bg-gray-800/50"
+          class=" py-1.5 focus:outline-none text-gray-700 text-sm rounded-md flex items-center gap-1.5 hover:bg-gray-50"
         >
           <svg
             v-if="type == 'vue'"
@@ -98,7 +98,7 @@
         @click="copyText()"
       > -->
     </div>
-    <div class="w-full flex flex-col p-4 border-2 border-t-0 border-primary-light-500 shadow-lg shadow-primary-light-500/20 bg-[#1c1c1c] dark:bg-opacity-60 text-sm rounded-b-lg">
+    <div class="w-full flex flex-col p-4 border-2 border-t-0 border-primary-light-500 shadow-lg shadow-primary-light-500/20 bg-[#1c1c1c] text-sm rounded-b-lg">
       <slot />
     </div>
     <!-- <PUToast /> -->

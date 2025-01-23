@@ -13,12 +13,7 @@ export default defineNuxtConfig({
       markdown: {
         highlight: {
           theme: {
-            // Default theme (same as single string)
-            default: 'aurora-x',
-            // Theme used if `html.dark`
-            dark: 'aurora-x',
-            // Theme used if `html.sepia`
-            sepia: 'aurora-x'
+            default: 'github-dark',
           }
         }
       }
