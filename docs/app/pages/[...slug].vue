@@ -11,8 +11,10 @@ if (!page.value) {
 </script>
 
 <template>
-  <ContentRenderer
+  <div class=" overflow-y-auto ">
+    <ContentRenderer
     v-if="page"
     :value="page"
   />
+  </div>
 </template>
