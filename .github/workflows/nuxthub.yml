@@ -34,4 +34,4 @@ jobs:
         uses: nuxt-hub/action@v1
         id: deploy
         with:
-          project-key: paper-ui-po17
+          project-key: paper-ui-6w9g
