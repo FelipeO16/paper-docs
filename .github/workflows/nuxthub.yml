@@ -21,14 +21,14 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: 20
           cache: 'pnpm'
 
       - name: Install dependencies
         run: pnpm install
 
       - name: Build application
-        run: pnpm generate
+        run: pnpm build
 
       - name: Deploy to NuxtHub
         uses: nuxt-hub/action@v1
