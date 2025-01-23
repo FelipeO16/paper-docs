@@ -34,4 +34,4 @@ jobs:
         uses: nuxt-hub/action@v1
         id: deploy
         with:
-          project-key: paper-docs-ix05
+          project-key: paper-docs-5wd8
