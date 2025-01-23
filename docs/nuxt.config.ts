@@ -5,6 +5,7 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxt/content'
   ],
+  ssr: false,
   devtools: { enabled: true },
   future: {
     compatibilityVersion: 4,
